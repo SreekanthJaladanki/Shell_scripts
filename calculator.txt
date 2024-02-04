@@ -11,7 +11,7 @@ echo "4. Division"
 read choice
 
 calculate() {
-    case $1 in
+    case $choice in
         1) echo "Result: $((num1 + num2))";;
         2) echo "Result: $((num1 - num2))";;
         3) echo "Result: $((num1 * num2))";;
